@@ -36,13 +36,15 @@ body {
 }
 
 /* 로고 */
-.logo {
-  font-size: 80px;
+
+.logo-img {
+  width: 180px;
 }
 
-.logo span {
-  color: gold;
-  font-size: 110px;
+@media (min-width: 768px) {
+  .logo-img {
+    width: 250px;
+  }
 }
 
 /* 텍스트 */
