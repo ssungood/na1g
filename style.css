@@ -1,4 +1,9 @@
-* {
+html {
+  scroll-behavior: smooth;
+}
+
+
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -67,4 +72,27 @@ body {
 .btn:hover {
   background: white;
   color: black;
+}
+
+.about {
+  padding: 120px 20px;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+.about-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  opacity: 0.8;
 }
