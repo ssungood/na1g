@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NA1G</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>NA1G</h1>
+<p>Find your own 1g</p>
+
+</body>
+</html>
