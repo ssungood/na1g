@@ -54,3 +54,17 @@ body {
   font-size: 20px;
   opacity: 0.8;
 }
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+}
