@@ -2,12 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Helvetica Neue', sans-serif;
 }
 
 body {
-  background: #000;
-  color: #fff;
+  font-family: sans-serif;
 }
 
 /* HERO */
@@ -17,6 +15,7 @@ body {
   position: relative;
 }
 
+/* 어둡게 */
 .overlay {
   position: absolute;
   width: 100%;
@@ -24,7 +23,8 @@ body {
   background: rgba(0,0,0,0.5);
 }
 
-.hero-content {
+/* 가운데 정렬 */
+.content {
   position: relative;
   z-index: 2;
   height: 100%;
@@ -32,43 +32,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  color: white;
 }
 
-/* LOGO */
+/* 로고 */
 .logo {
-  font-size: 72px;
-  font-weight: 700;
-  letter-spacing: 2px;
+  font-size: 80px;
 }
 
-.one {
-  color: #d4af37; /* gold */
-  font-size: 100px;
+.logo span {
+  color: gold;
+  font-size: 110px;
 }
 
-/* TEXT */
+/* 텍스트 */
 .tagline {
-  font-size: 22px;
-  opacity: 0.9;
+  margin-top: 10px;
+  font-size: 20px;
+  opacity: 0.8;
 }
-
-.sub {
-  font-size: 16px;
-  opacity: 0.6;
-}
-
-/* BUTTON */
-.cta {
-  margin-top: 20px;
-  padding: 12px 30px;
-  border: 1px solid #fff;
-  text-decoration: none;
-  color: #fff;
-  transition: 0.3s;
-}
-
-.cta:hover {
-  background: #fff;
-  color: #000;
 }
