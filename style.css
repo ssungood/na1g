@@ -143,7 +143,7 @@ body {
 }
 
 /* 텍스트 */
-.overlay {
+.overlay-text {
   position: absolute;
   bottom: 20px;
   left: 20px;
