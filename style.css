@@ -137,3 +137,27 @@ body {
 .img-box:nth-child(3) {
   background-image: url('https://images.unsplash.com/photo-1491553895911-0055eca6402d');
 }
+.img-box {
+  position: relative;
+  overflow: hidden;
+}
+
+/* 텍스트 */
+.overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.4s;
+}
+
+/* hover 시 등장 */
+.img-box:hover .overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
