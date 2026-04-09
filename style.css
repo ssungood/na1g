@@ -181,7 +181,7 @@ body {
 }
 
 .img-box:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);  /* 기존 1.05 → 1.08 */
   filter: brightness(1);
 }
 
@@ -204,4 +204,29 @@ body {
 .img-box:hover .overlay-text {
   opacity: 1;
   transform: translate(-50%, -50%);
+}
+.img-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0)
+  );
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.img-box:hover::before {
+  opacity: 1;
+}
+
+.img-box:nth-child(2) {
+  transform: scale(1.05);
+}
+
+.overlay-text {
+  letter-spacing: 1px;
 }
