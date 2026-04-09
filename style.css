@@ -185,7 +185,7 @@ body {
   filter: brightness(1);
 }
 
-.overlay {
+.overlay-text {
   position: absolute;
   bottom: 20px;
   left: 20px;
@@ -198,7 +198,7 @@ body {
   transition: 0.4s;
 }
 
-.img-box:hover .overlay {
+.img-box:hover .overlay-text {
   opacity: 1;
   transform: translateY(0);
 }
